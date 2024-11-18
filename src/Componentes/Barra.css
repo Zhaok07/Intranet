@@ -1,0 +1,11 @@
+.barra{
+    position: fixed;
+    margin: 0;
+    top: 0px;
+    position: fixed;
+    background-color: #004f9e;
+    color: #004f9e;
+    transform: translate(-50%);
+    width: 2700px;
+    height: 100px;
+}
