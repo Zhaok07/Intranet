@@ -11,7 +11,7 @@ import PaginaRamal from './Ramal/PaginaRamal.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <PaginaHome/>, // Componente principal que pode incluir um Layout
+    element: <App/>, // Componente principal que pode incluir um Layout
   },
 
   {
