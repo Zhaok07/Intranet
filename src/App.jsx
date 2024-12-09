@@ -1,12 +1,15 @@
+import React, { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './App.css'
 
-function App() {
+const RedirectComponent = () => {
+  const navigate = useNavigate();
 
-  return (
-    <div>
-      <p>Pagina App</p>
-    </div>
-  )
-}
+  useEffect(() => {
+    // Redireciona automaticamente para '/home' após o componente ser montado
+    navigate('/home');
+  }, [navigate]);
 
+  return <div>Redirecionando...</div>;
+};
 export default App
