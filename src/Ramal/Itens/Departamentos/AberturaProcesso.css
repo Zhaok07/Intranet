@@ -1,0 +1,20 @@
+.abertura-processo{
+  min-width: 330px;
+  background-color: #004f9e;
+  color: white;
+  font-weight: bold;
+  white-space: nowrap;
+}
+.ramal{
+  background-color: white;
+  text-align: left;
+  color: black;
+
+}
+.email{
+  background-color: white;
+
+}
+#aberturaprocesso{
+
+}

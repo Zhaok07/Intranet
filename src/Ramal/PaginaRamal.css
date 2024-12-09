@@ -1,0 +1,28 @@
+.dp-container{
+    font-family: 'Arial';
+    position: absolute;
+    display: grid;
+    margin: 0;
+    grid-template-columns: repeat(5, 1fr); /* Cria 3 colunas de igual tamanho */
+    grid-template-rows: repeat(10, 80px); /* Cria 3 linhas de 100px */
+    gap: 30px; /* Espaço entre os itens */
+    justify-items: center; /* Alinha os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+    top: 130px;
+    left: 70px;
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Arial';
+    position: absolute;
+    top: -4px;
+    left: 850px;
+    color: white;
+}
+#paragrafo{
+
+    font-size: 12px;
+    display: flex;
+    margin-top: -40px;
+}

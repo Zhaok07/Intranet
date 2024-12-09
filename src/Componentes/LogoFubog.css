@@ -4,26 +4,33 @@
     align-items: center;
     height: 20px; /* ou o valor adequado */
     object-fit: cover;
-    margin: 0 auto;
-
-    
-
-}
+    margin: 0 auto;}
 #Imagem{
     position: absolute;
-    width: auto;
+    width: 180px;
     max-width: 500px; /* Tamanho máximo, se necessário */
-    height: 100px;
+    height: auto;
     z-index: 1;
-    top: 1px;
+    top: -17px;
     left: 100px;
 }
 body{
-   /* background-position: 50% 90%;
-    background-size: 1000px auto;
-    background-image: url('../imagens/Lions.png');*/
-    background-repeat: no-repeat; /* Garante que a imagem não se repita */
-    width: 100%;
-    height: 100%;
+    /*background-image: url('../imagens/grade.png');*/
  
+}
+#grade{
+    top: 100px;
+    left: 920px;
+    transform: translate(-50%);
+    position: fixed;
+    width: 1920px;
+    height: 100%;
+}
+#Lions{
+    position: absolute;
+    top: -17px;
+    left: 1720px;
+    width: 180px;
+    height: auto;
+    z-index: 1;
 }

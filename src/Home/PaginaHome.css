@@ -1,0 +1,43 @@
+.container-links{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 129px;
+    left: 25px;
+    z-index: 1;
+    gap: 30px;
+}
+.Icone-home{
+    position: absolute;
+    top: 140px;
+    width: auto;
+    height: 50px;
+    color: white;
+    left: 10px;
+
+}
+
+
+#nome-home{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    z-index: 1;
+    color: white;
+}
+#nome-fubog{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    z-index: 1;
+    color: white;
+    margin-top: -60px;
+
+}
+
+.container-intranet{
+    position: absolute;
+    text-align: center;
+    top: -45px;
+    left: 870px;
+    
+}
+

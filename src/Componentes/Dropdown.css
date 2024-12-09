@@ -2,7 +2,7 @@
 .dropdown {
     position: absolute;
     display: inline-block;
-    top: 30px;
+    top: 35px;
     left: 25px;
 
   }
@@ -25,7 +25,7 @@
     position: absolute;
     top: 100%;
     left: 0;
-    min-width: 160px;
+    min-width: 70px;
     /*background-color: rgb(255, 255, 255);*/
     padding: 7px 5;
     z-index: 100;
@@ -51,8 +51,12 @@
   
   .dropdown-item:hover {
     transform: scale(1.1); /* Aumenta o tamanho do item ao passar o mouse */
+    
   }
 
   .IconeMenu{
     color: white;
+    width: auto;
+    height: 20px;
   }
+

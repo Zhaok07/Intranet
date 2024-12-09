@@ -1,0 +1,9 @@
+
+#icone-home{
+    position: absolute;
+    top: 100px;
+    left: -5px;
+    z-index: 1;
+    height: 140px;
+    width: auto;
+}

@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom"
-import "../Home/LinkHome.css"
+import '../Home/LinkHome.css'
 function LinkHome(){
     return(
-        <div className="Home">
-            <Link to="/home">INICIO</Link>
+        <div>
+            <a href="/home" id="link-home">INICIO</a>
+
         </div>
     )
 }

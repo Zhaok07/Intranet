@@ -1,0 +1,27 @@
+#post-branco{
+    position: absolute;
+    width: auto;
+    height: 300px;
+    top: 100px;
+    left: 1640px;
+    border: 0;
+    margin: 0;
+}
+#post-amarelo{
+    position: absolute;
+    width: auto;
+    height: 300px;
+    top: 370px;
+    left: 1643px;
+    border: 0;
+    margin: 0;  
+}
+#post-azul{
+    position: absolute;
+    width: auto;
+    height: 300px;
+    top: 640px;
+    left: 1647px;
+    border: 0;
+    margin: 0;
+}

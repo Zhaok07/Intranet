@@ -1,0 +1,40 @@
+.container-texto{
+    position: absolute;
+    background-color: #b1d6ec;
+    width: 430px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: -2;
+}
+#Titulo-new{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 36px;
+    position: relative;
+    top: 200px;
+    color: black;
+    z-index: 1;
+    white-space: nowrap;
+}
+#paragrafo-topicos{
+    
+    padding-left: 25px;
+    margin-top: 35px;
+    position: relative;
+    top: 190px;
+    text-align: left;
+    justify-items: center;
+    font-size: 13px;
+}
+#paragrafo-topicos::before{
+    content: '•'; /* O marcador (ponto) */
+    position: absolute; /* Posiciona o marcador */
+    left: 10px; /* Coloca o marcador na posição inicial */
+    top: 7%;
+    transform: translateY(-50%); /* Ajusta o alinhamento vertical */
+    font-size: 30px; /* Tamanho do marcador */
+    color: #000; /* Cor do marcador (pode mudar) */
+    
+
+}

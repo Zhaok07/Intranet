@@ -1,0 +1,10 @@
+.container-video{
+    position: absolute;
+    top: 682px;
+    max-width: 350px;
+    max-height: 250px;
+
+    overflow: hidden;
+    margin: 0;
+    border: 0;  
+}

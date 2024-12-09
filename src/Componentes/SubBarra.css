@@ -1,0 +1,10 @@
+.sub-barra{
+    top: 120px;
+    left: 0;
+    position: absolute;
+    background-color: #006D8E;
+    width: 100%;
+    height: 50px;
+    z-index: -1;
+
+}

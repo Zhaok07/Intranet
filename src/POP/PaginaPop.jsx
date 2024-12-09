@@ -3,6 +3,7 @@ import "../Componentes/Icones.css"
 import Rvideo from './Rvideo'
 import Dropdown from '../Componentes/Dropdown'
 import LogoFubog from "../Componentes/LogoFubog"
+
 function PaginaPop() {
     return (
         <div>

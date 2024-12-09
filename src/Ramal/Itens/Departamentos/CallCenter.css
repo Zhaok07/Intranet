@@ -1,0 +1,22 @@
+.call-center{
+    min-width: 330px;
+    background-color: #004f9e;
+    color: white;
+    font-weight: bold;
+    border-radius: 1;
+    white-space: nowrap;
+  
+  }
+  .ramal{
+    background-color: white;
+    text-align: left;
+    color: black;
+  
+  }
+  .email{
+    background-color: white;
+  
+  }
+  #call-center{
+    
+  }

@@ -44,9 +44,9 @@ function Dropdown() {
       {/* Se isOpen for verdadeiro, exibe as opções */}
       {isOpen && (
         <ul className="dropdown-menu">
-          <li className="dropdown-item"><LinkPop /></li>
           <li className="dropdown-item"><LinkHome /></li>
           <li className="dropdown-item"><LinkRamal /></li>
+          <li className="dropdown-item"><LinkPop /></li>
         </ul>
       )}
     </div>

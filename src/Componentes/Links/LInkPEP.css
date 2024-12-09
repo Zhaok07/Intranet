@@ -1,0 +1,24 @@
+.link-pep{
+    z-index: 1;
+    padding: 5px 20px;
+    border-radius: 2px;
+    background-color: white;
+    transition: transform 0.3s ease; /* Faz a transição suave para o efeito */
+    border-radius: 10px;
+  
+}
+
+
+a {
+    text-decoration: none; /* Remover o sublinhado, se necessário */
+  }
+  
+
+  .link-pep:hover {
+    cursor: pointer;
+    transform: scale(1.1); /* Aumenta o tamanho do item ao passar o mouse */
+    
+  }
+  #cor-pep{
+    color: #004f9e;
+  }

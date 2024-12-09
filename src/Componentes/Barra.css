@@ -1,11 +1,11 @@
 .barra{
-    position: fixed;
+    position: absolute;
     margin: 0;
     top: 0px;
-    position: fixed;
+    left: 0;
+    align-items: left;
     background-color: #004f9e;
     color: #004f9e;
-    transform: translate(-50%);
-    width: 2700px;
-    height: 100px;
+    width: 100%;
+    height: 120px;
 }

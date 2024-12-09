@@ -1,12 +1,15 @@
+import './Rvideo.css'
 import React from "react";
 import ReactPlayer from 'react-player'
 
 const Rvideo = () =>{
     return(
-        <div>
+        <div className='container-video'>
         <ReactPlayer
-        url="https://vimeo.com/808053487/9462c93e02"
+        url="https://youtu.be/hMAPyGoqQVw?list=RDhMAPyGoqQVw"
         controls={true}
+        width="100%"  /* Ajusta a largura */
+        height="255px" /* Ajusta a altura */
         
         />
         </div>
